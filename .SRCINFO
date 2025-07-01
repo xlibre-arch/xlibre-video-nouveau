@@ -1,7 +1,7 @@
 pkgbase = xlibre-video-nouveau
 	pkgdesc = Open Source 3D acceleration driver for nVidia cards
 	pkgver = 1.0.18.1
-	pkgrel = 1
+	pkgrel = 2
 	url = https://github.com/X11Libre/xf86-video-nouveau
 	arch = aarch64
 	arch = x86_64
@@ -14,7 +14,6 @@ pkgbase = xlibre-video-nouveau
 	depends = libdrm
 	depends = mesa
 	depends = systemd-libs
-	provides = xf86-video-nouveau
 	conflicts = xf86-video-nouveau
 	conflicts = xorg-server<21.1.1
 	conflicts = X-ABI-VIDEODRV_VERSION<28
