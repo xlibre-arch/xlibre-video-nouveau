@@ -8,12 +8,13 @@ pkgbase = xlibre-video-nouveau
 	groups = xlibre-drivers
 	license = MIT
 	makedepends = systemd
-	makedepends = xlibre-server-devel
+	makedepends = xlibre-xserver-devel
 	makedepends = X-ABI-VIDEODRV_VERSION=28.0
 	depends = glibc
 	depends = libdrm
 	depends = mesa
 	depends = systemd-libs
+	provides = xf86-video-nouveau
 	conflicts = xf86-video-nouveau
 	conflicts = xorg-server<21.1.1
 	conflicts = X-ABI-VIDEODRV_VERSION<28
