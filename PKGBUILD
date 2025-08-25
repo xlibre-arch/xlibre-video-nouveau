@@ -3,8 +3,8 @@
 
 _basename="xf86-video-nouveau"
 pkgname="${_basename//xf86/xlibre}"
-pkgver=1.0.18.1
-pkgrel=2
+pkgver=1.0.18.2
+pkgrel=1
 pkgdesc="Open Source 3D acceleration driver for nVidia cards"
 arch=('aarch64' 'x86_64')
 url="https://github.com/X11Libre/${_basename}"
@@ -16,7 +16,7 @@ conflicts=("${_basename}" 'xorg-server<21.1.1' 'X-ABI-VIDEODRV_VERSION<28' 'X-AB
 groups=('xlibre-drivers')
 _pkgsrc="${_basename}-xlibre-${_basename}-${pkgver}"
 source=("${_pkgsrc}.tar.gz::${url}/archive/refs/tags/xlibre-${_basename}-${pkgver}.tar.gz")
-b2sums=('7fec1558831d7f4669aa8f5706287e83b4280b8b736fdbe66cba6185ece46ca2fc84189f5a9d5d0cb4dba8199dc98216eaf36b7826bb4214e93ad6c22abb32fe')
+b2sums=('c4accca05c2ee590fb69ec0982a4bc48c0a31889299fe8bec035425b133ca5bf79fa1060f4280c3066300bf6ff2aa3ba3b2e35abfbae317d2eb590c5c04cb125')
 
 build() {
   # Since pacman 5.0.2-2, hardened flags are now enabled in makepkg.conf

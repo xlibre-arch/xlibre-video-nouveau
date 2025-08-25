@@ -1,7 +1,7 @@
 pkgbase = xlibre-video-nouveau
 	pkgdesc = Open Source 3D acceleration driver for nVidia cards
-	pkgver = 1.0.18.1
-	pkgrel = 2
+	pkgver = 1.0.18.2
+	pkgrel = 1
 	url = https://github.com/X11Libre/xf86-video-nouveau
 	arch = aarch64
 	arch = x86_64
@@ -19,7 +19,7 @@ pkgbase = xlibre-video-nouveau
 	conflicts = xorg-server<21.1.1
 	conflicts = X-ABI-VIDEODRV_VERSION<28
 	conflicts = X-ABI-VIDEODRV_VERSION>=29
-	source = xf86-video-nouveau-xlibre-xf86-video-nouveau-1.0.18.1.tar.gz::https://github.com/X11Libre/xf86-video-nouveau/archive/refs/tags/xlibre-xf86-video-nouveau-1.0.18.1.tar.gz
-	b2sums = 7fec1558831d7f4669aa8f5706287e83b4280b8b736fdbe66cba6185ece46ca2fc84189f5a9d5d0cb4dba8199dc98216eaf36b7826bb4214e93ad6c22abb32fe
+	source = xf86-video-nouveau-xlibre-xf86-video-nouveau-1.0.18.2.tar.gz::https://github.com/X11Libre/xf86-video-nouveau/archive/refs/tags/xlibre-xf86-video-nouveau-1.0.18.2.tar.gz
+	b2sums = c4accca05c2ee590fb69ec0982a4bc48c0a31889299fe8bec035425b133ca5bf79fa1060f4280c3066300bf6ff2aa3ba3b2e35abfbae317d2eb590c5c04cb125
 
 pkgname = xlibre-video-nouveau
